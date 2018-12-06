@@ -1,0 +1,107 @@
+body{
+	color: blue;
+}
+
+@font-face {
+   font-family: Digestive;
+   src: url(fonts/Digestive.otf);
+}
+
+/*@font-face {
+    font-family: 'Digestive v0.7';
+    src: url('Digestivev07-Compressed.woff2') format('woff2'),
+        url('Digestivev07-Compressed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+
+h1{
+	font-family: Digestive;
+	color: green;
+	font-size: 100px;
+	text-align: center;
+}
+
+.maintext{
+	text-align: left;
+	color: blue;
+	max-width: 500px;
+    margin: auto;
+    left: 1%;
+    right: 1%;
+    position: absolute;
+}
+
+#box-text{
+	width: 600px;
+	height: 3000px;
+	margin: auto;
+	 left: 1%;
+    right: 1%;
+    position: absolute;
+    -webkit-box-shadow: -1px 1px 5px 9px rgba(4,112,49,0.25);
+ -moz-box-shadow: -1px 1px 5px 9px rgba(4,112,49,0.25);
+ box-shadow: -1px 1px 5px 9px rgba(4,112,49,0.25);
+}
+
+
+.split {
+  float: left;
+  /*height: 100%;*/
+  width: 33.33%;
+  /*position: fixed;*/
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  /*left: 0;*/
+  /*position: absolute;*/
+  background-color: pink;
+  overflow:scroll;
+}
+
+/* Control the right side */
+.right {
+    /*right: 0;*/
+  /*position: absolute;*/
+  background-color: red;
+  overflow:scroll;
+}
+
+.center {
+/*position: absolute;*/
+background-color: blue;
+  overflow:scroll;
+
+.imagesLeft{
+	width: 100px;
+
+
+}
+.images{
+	width: 100px;
+	
+	
+}
+
+#imgleft{
+	margin: 3px;
+	float: left;
+}
+
+#imgright{
+	margin left: 800px;
+	float: right;
+}
+
+#zon{
+	width: 300px;
+}
+#imglink{
+	text-decoration: underline;
+}
