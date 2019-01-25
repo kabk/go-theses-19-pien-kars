@@ -7,6 +7,11 @@ body{
    src: url(fonts/Digestive.otf);
 }
 
+@font-face {
+    font-family: ActaDeck;
+    src: url(fonts/ActaDeck.otf);
+}
+
 /*@font-face {
     font-family: 'Digestive v0.7';
     src: url('Digestivev07-Compressed.woff2') format('woff2'),
@@ -15,36 +20,26 @@ body{
     font-style: normal;
 }*/
 
+header{
+  background-color: green;
+  height: 400px;
+}
 
 h1{
-	font-family: Digestive;
-	color: green;
-	font-size: 100px;
-	text-align: center;
+  font-family: Digestive;
+  color: green;
+  font-size: 100px;
+  text-align: center;
+  font-weight: normal;
+  height: 50px;
 }
 
-.maintext{
-	text-align: left;
-	color: blue;
-	max-width: 500px;
-    margin: auto;
-    left: 1%;
-    right: 1%;
-    position: absolute;
-}
 
-#box-text{
-	width: 600px;
-	height: 3000px;
-	margin: auto;
-	 left: 1%;
-    right: 1%;
-    position: absolute;
-    -webkit-box-shadow: -1px 1px 5px 9px rgba(4,112,49,0.25);
- -moz-box-shadow: -1px 1px 5px 9px rgba(4,112,49,0.25);
- box-shadow: -1px 1px 5px 9px rgba(4,112,49,0.25);
+.row {
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
 }
-
 
 .split {
   float: left;
@@ -59,24 +54,50 @@ h1{
 
 /* Control the left side */
 .left {
-  /*left: 0;*/
+ /* margin-left: 100px;*/
   /*position: absolute;*/
-  background-color: pink;
-  overflow:scroll;
+  /*background-color: pink;*/
+  /*overflow:scroll;*/
+    box-sizing: border-box;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
+
+.center {
+/*position: absolute;*/
+background-color: green;
+  overflow:scroll;
+  box-sizing: border-box;
+  padding-right: 10px;
+  padding-left: 10px;
+
+
+}
 /* Control the right side */
 .right {
     /*right: 0;*/
   /*position: absolute;*/
-  background-color: red;
+  /*background-color: red;*/
   overflow:scroll;
+    box-sizing: border-box;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
-.center {
-/*position: absolute;*/
-background-color: blue;
-  overflow:scroll;
+
+#maintext{
+  text-align: left;
+  color: blue;
+  max-width: 30%;
+  padding: 15px;
+    margin: auto;
+    left: 1%;
+    right: 1%;
+    position: absolute;
+}
+
+
 
 .imagesLeft{
 	width: 100px;
